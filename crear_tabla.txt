@@ -1,0 +1,7 @@
+create table empleado(
+    ci numeric(8) primary key,
+    nombre varchar(30),
+    fecha_nac date,
+    procedencia varchar(30)
+
+)
